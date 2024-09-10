@@ -6,7 +6,7 @@
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
   
-    background-image: url("src/assets/Background.jpg");
+    background-image: url("src/assets/sistema-solar.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -29,4 +29,25 @@
     button {
       background-color: #f9f9f9;
     }
-  }
+}
+
+
+  /*--------------------------------estilos del contenido--------------------------------*/
+
+h1{
+    font-size: 50px;
+    text-align: center;
+ }
+
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+    font-size: 29px;
+ }
+
+p{
+    font-size: 20px;
+ }

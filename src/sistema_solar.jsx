@@ -5,7 +5,6 @@ import { createRoot } from 'react-dom/client'
 import viteLogo from '/vite.svg'
 import { Header } from './App'
 import './styles/sistema_solar.css'
-import "./styles/App.css"
 
 createRoot(document.getElementById('sistema')).render(
     <StrictMode>
@@ -16,6 +15,18 @@ createRoot(document.getElementById('sistema')).render(
 
 function Sistema() {
     return(
-        <Header/>
+        <>
+            <Header/>
+            <Contenido/>
+        </>
+    )
+}
+
+function Contenido() {
+    return(
+        <>
+            <h1>El sistema solar</h1>
+            <h2>Una parada antes del largo viaje</h2>
+        </>
     )
 }
