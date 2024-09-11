@@ -28,10 +28,10 @@ export function Header(){
       <h1>Viaje mas alla del cielo</h1>
         <nav>
           <ul>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="sistema_solar.html">El sistema solar</a></li>
             <li><a href="">Mas alla del sistema</a></li>
             <li><a href="">Nigromante cosmico</a></li>
-            <li><a href="">provisional</a></li>
           </ul>
         </nav>
     </header>
@@ -42,6 +42,7 @@ function Index() {
   return (
     <main className='index'>
       <h1>Aqui comienza el viaje</h1>
+      <h2>Viaje al centro del planeta</h2>
       <section className='texto'>
         <div className='info'>
           <div>
@@ -70,6 +71,7 @@ function Index() {
             <p>Aunque se cree que la temperatura del nucleo interno es similar a la de la superficie de nuestro sol, la precion extrema impide que se convierta en liquido</p>
           </div>
         </div>
+        <p className='despedida'>Aqui termina el viaje al centro de la tierra </p>
         <h3 className='siguiente'><a href='sistema_solar.html'>Seguimos con el viaje?</a></h3>
       </section>
     </main>

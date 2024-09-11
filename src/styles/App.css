@@ -1,3 +1,7 @@
+*{
+  text-shadow: 1px 1px 2px #213547;
+}
+
 header{
   display:flex;
   padding-left: 20px;
@@ -11,6 +15,10 @@ header{
   border-radius: 10px;
   height: 60px;
 
+  h1{
+    font-size: 30px;
+  }
+
   nav{
     justify-items: center;
     padding-right: 3em;
@@ -21,20 +29,18 @@ header{
       gap: 3em;
       list-style: none;
       align-items: center;
+      
       a{
         text-align: center;
         text-decoration: none;
       }
-  
-      a:hover{
-        font-size: 20px;
-        }
+
       }
     }
 }
 
 .index{
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
